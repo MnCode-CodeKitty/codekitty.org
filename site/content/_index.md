@@ -1,7 +1,7 @@
 ---
 title: We help students see themselves in STEM.
 subtitle: Check out our innovative coding and robotics workshops!
-image: /img/home-jumbotron.jpg
+image: img/home-jumbotron.png
 blurb:
   heading: Why Code Kitty?
   text: >-
