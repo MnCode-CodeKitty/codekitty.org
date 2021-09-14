@@ -4,15 +4,22 @@ type: products
 heading: What we offer
 description: >-
   We offer workshops for learners grades 3 through 5 (and up!). See below for more information.
+
+blurb:
+  heading: Workshops
+  text: >-
+    Our workshops have helped over 200 students succeed at coding, robotics, and engineering. We have worked with Girl Scout troops, classrooms, teacher groups, and even birthday parties!  
+    All of our donations go back into providing our robot kits and instructional materials as cheaply as possible, and we rely on grants to cover our operational costs. Know that whe you 
+    sign up for our workshop, the suggested donation goes directly toward providing the robots that your students will take home.
+
 intro:
   blurbs:
     - image: 
       text: >
-        Our innovative 
-        workshop model allows students to build a 3D printed robot, learn to code in Python, and then learn how to code the robot they built - and they get to keep the robot at the end!
+        Our innovative workshop model allows students to build a 3D printed robot, learn to code in Python, and then learn how to code the robot they built - and they get to keep the robot at the end!
     - image: 
       text: >
-        We are also working on an ever-expanding collection of online and interactive workshop content so we can work with distance learning/remote students. We combine workshop content from several different media (interactive coding, hands-on building, online video and games, and even comic books!) to engage as many learners as possible.
+        We are developing an ever-expanding collection of online and interactive workshop content so we can work with distance learning/remote students. We combine workshop content from several different media (interactive coding, hands-on building, online video and games, and even comic books!) to engage as many learners as possible.
     - image: 
       text: >
         Our robots are 3D printed using environmentally friendly biodegradable PLA plastic made from corn starch, not fossil fuels. The plastic can be recycled at the end of its life, and all of our designs are freely available online (see our Resources page), so you can 
@@ -20,14 +27,10 @@ intro:
     - image:
       text: >
         We are not a company building a robot toy - we are a Minnesota based 501(c)(3) education non-profit. We partner with many different organizations, and will come to you to offer our workshop at very low cost. 
-  heading: Donations, not Profits
-  description: >
-    All of our donations go back into providing our robot kits and instructional materials as cheaply as possible, and we rely on grants to cover our operational costs. Know that whe you 
-    sign up for our workshop, the suggested donation goes directly toward providing the robots that your students will take home.
-main:
-  heading: Helping students succeed with STEM.
-  description: >
-    Our workshops have helped over 200 students succeed at coding, robotics, and engineering. We have worked with Girl Scout troops, classrooms, teacher groups, and even birthday parties! 
+#main:
+#  heading: Helping students succeed with STEM.
+#  description: >
+    
 #
 #  image1:
 #    alt: A close-up of a paper filter filled with ground coffee
@@ -50,7 +53,7 @@ main:
 #full_image: /img/products-full-width.jpg
 #
 pricing:
-  heading: Workshop Suggested Donations
+  heading: Suggested Donations
   description: >-
     We've worked really hard to keep our costs down, and are proud to offer our 3 hour in person workshop, which includes the robot kit, for a low suggested donation per student. 
     If this isn't feasible for you, head to our Contact page and talk to us about it. We can probably work something out! 
