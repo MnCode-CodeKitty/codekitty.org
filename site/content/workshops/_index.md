@@ -8,9 +8,8 @@ description: >-
 blurb:
   heading: Workshops
   text: >-
-    Our workshops have helped over 200 students succeed at coding, robotics, and engineering. We have worked with Girl Scout troops, classrooms, teacher groups, and even birthday parties!  
-    All of our donations go back into providing our robot kits and instructional materials as cheaply as possible, and we rely on grants to cover our operational costs. Know that whe you 
-    sign up for our workshop, the suggested donation goes directly toward providing the robots that your students will take home.
+    Our workshops have helped over 200 students succeed at coding, robotics, and engineering.   
+    All of our donations go back into providing our robot kits and instructional materials as cheaply as possible, and we rely on grants to cover our operational costs.
 
 intro:
   blurbs:
