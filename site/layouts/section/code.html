@@ -1,7 +1,7 @@
 {{ define "main" }}
 
 <div class="mw7 center ph3 pt4">
-  {{ trinket "https://trinket.io/embed/python/341b2cd9c6?toggleCode=true&runOption=console&runMode=console" }}
+  <iframe src="https://trinket.io/embed/python/341b2cd9c6?toggleCode=true&runOption=console&runMode=console" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
   {{ range $index, $element := .Params.values }}
     {{ if modBool $index 2 }}
       {{ partial "media-block" $element }}
