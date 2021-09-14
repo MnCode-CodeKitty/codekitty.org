@@ -1,102 +1,68 @@
 ---
-title: Our Coffee
+title: Workshops
 type: products
-image: /img/products-jumbotron.jpg
 heading: What we offer
 description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  We offer workshops for learners grades 3 through 5 (and up!). See below for more information.
 intro:
   blurbs:
-    - image: /img/illustrations-coffee.svg
+    - image: 
       text: >
-        We sell green and roasted coffee beans that are sourced directly from
-        independent farmers and farm cooperatives. We’re proud to offer a
-        variety of coffee beans grown with great care for the environment and
-        local communities. Check our post or contact us directly for current
-        availability.
-    - image: /img/illustrations-coffee-gear.svg
+        Our innovative 
+        workshop model allows students to build a 3D printed robot, learn to code in Python, and then learn how to code the robot they built - and they get to keep the robot at the end!
+    - image: 
       text: >
-        We offer a small, but carefully curated selection of brewing gear and
-        tools for every taste and experience level. No matter if you roast your
-        own beans or just bought your first french press, you’ll find a gadget
-        to fall in love with in our shop.
-    - image: /img/illustrations-tutorials.svg
+        We are also working on an ever-expanding collection of online and interactive workshop content so we can work with distance learning/remote students. We combine workshop content from several different media (interactive coding, hands-on building, online video and games, and even comic books!) to engage as many learners as possible.
+    - image: 
       text: >
-        Love a great cup of coffee, but never knew how to make one? Bought a
-        fancy new Chemex but have no clue how to use it? Don't worry, we’re here
-        to help. You can schedule a custom 1-on-1 consultation with our baristas
-        to learn anything you want to know about coffee roasting and brewing.
-        Email us or call the store for details.
-    - image: /img/illustrations-meeting-space.svg
+        Our robots are 3D printed using environmentally friendly biodegradable PLA plastic made from corn starch, not fossil fuels. The plastic can be recycled at the end of its life, and all of our designs are freely available online (see our Resources page), so you can 
+        replace them or even remix your own version.
+    - image:
       text: >
-        We believe that good coffee has the power to bring people together.
-        That’s why we decided to turn a corner of our shop into a cozy meeting
-        space where you can hang out with fellow coffee lovers and learn about
-        coffee making techniques. All of the artwork on display there is for
-        sale. The full price you pay goes to the artist.
-  heading: What we offer
+        We are not a company building a robot toy - we are a Minnesota based 501(c)(3) education non-profit. We partner with many different organizations, and will come to you to offer our workshop at very low cost. 
+  heading: Donations, not Profits
   description: >
-    Kaldi is the ultimate spot for coffee lovers who want to learn about their
-    java’s origin and support the farmers that grew it. We take coffee
-    production, roasting and brewing seriously and we’re glad to pass that
-    knowledge to anyone. This is an edit via identity...
+    All of our donations go back into providing our robot kits and instructional materials as cheaply as possible, and we rely on grants to cover our operational costs. Know that whe you 
+    sign up for our workshop, the suggested donation goes directly toward providing the robots that your students will take home.
 main:
-  heading: Great coffee with no compromises
+  heading: Helping students succeed with STEM.
   description: >
-    We hold our coffee to the highest standards from the shrub to the cup.
-    That’s why we’re meticulous and transparent about each step of the coffee’s
-    journey. We personally visit each farm to make sure the conditions are
-    optimal for the plants, farmers and the local environment.
-  image1:
-    alt: A close-up of a paper filter filled with ground coffee
-    image: /img/products-grid3.jpg
-  image2:
-    alt: A green cup of a coffee on a wooden table
-    image: /img/products-grid2.jpg
-  image3:
-    alt: Coffee beans
-    image: /img/products-grid1.jpg
-testimonials:
-  - author: Elisabeth Kaurismäki
-    quote: >-
-      The first time I tried Kaldi’s coffee, I couldn’t even believe that was
-      the same thing I’ve been drinking every morning.
-  - author: Philipp Trommler
-    quote: >-
-      Kaldi is the place to go if you want the best quality coffee. I love their
-      stance on empowering farmers and transparency.
-full_image: /img/products-full-width.jpg
+    Our workshops have helped over 200 students succeed at coding, robotics, and engineering. We have worked with Girl Scout troops, classrooms, teacher groups, and even birthday parties! 
+#
+#  image1:
+#    alt: A close-up of a paper filter filled with ground coffee
+#    image: /img/products-grid3.jpg
+#  image2:
+#    alt: A green cup of a coffee on a wooden table
+#    image: /img/products-grid2.jpg
+#  image3:
+#    alt: Coffee beans
+#    image: /img/products-grid1.jpg
+#testimonials:
+#  - author: Elisabeth Kaurismäki
+#    quote: >-
+#      The first time I tried Kaldi’s coffee, I couldn’t even believe that was
+#      the same thing I’ve been drinking every morning.
+#  - author: Philipp Trommler
+#    quote: >-
+#      Kaldi is the place to go if you want the best quality coffee. I love their
+#      stance on empowering farmers and transparency.
+#full_image: /img/products-full-width.jpg
+#
 pricing:
-  heading: Monthly subscriptions
+  heading: Workshop Suggested Donations
   description: >-
-    We make it easy to make great coffee a part of your life. Choose one of our
-    monthly subscription plans to receive great coffee at your doorstep each
-    month. Contact us about more details and payment info.
+    We've worked really hard to keep our costs down, and are proud to offer our 3 hour in person workshop, which includes the robot kit, for a low suggested donation per student. 
+    If this isn't feasible for you, head to our Contact page and talk to us about it. We can probably work something out! 
+    All amounts are per student. 
+    Stay tuned for more workshop options (including online/remote) in the near future!
   plans:
-    - description: Perfect for the drinker who likes to enjoy 1-2 cups per day.
+    - description: Our classic in-person small group workshop
       items:
-        - 3 lbs of coffee per month
-        - Green or roasted beans"
-        - One or two varieties of beans"
-      plan: Small
+        - A 3D printed robot kit for each student
+        - Three hours of hands-on instruction in builing the robot and coding in Python
+      plan: In person small group
       price: '50'
-    - description: 'Great for avid drinkers, java-nsoving couples and bigger crowds'
-      items:
-        - 6 lbs of coffee per month
-        - Green or roasted beans
-        - Up to 4 different varieties of beans
-      plan: Big
-      price: '80'
-    - description: Want a few tiny batches from different varieties? Try our custom plan
-      items:
-        - Whatever you need
-        - Green or roasted beans
-        - Unlimited varieties
-      plan: Custom
-      price: '?'
 ---
 
 
