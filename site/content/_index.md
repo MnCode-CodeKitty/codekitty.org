@@ -11,8 +11,8 @@ blurb:
 
 
     We believe that diversity is essential to our future success, and that we all do better when we all do better.
+    
 intro:
-  intro:
   heading: Our Sponsors
   text: >-
   **Startup Weekend Twin Cities, Propel Nonprofits, 3M Visting Wizards, Amelar Family Foundation, Cycling Ladies In Tech, The Works Museum, The Bakken Museum, Wayzata Public Schools, Girl Scouts MN, Minneapolis Public Schools, Adafruit Industries, Google, Amazon, Digi-key, Utepils Brewing, Code.org, GiveMN, and tons of awesome people like you!**
