@@ -1,5 +1,5 @@
 ---
-title: We help students see themselves in STEM.
+title: We help students succeed with STEM.
 subtitle: Check out our innovative coding and robotics workshops!
 image: img/home-jumbotron.png
 blurb:
