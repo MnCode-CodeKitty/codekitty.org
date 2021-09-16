@@ -12,20 +12,8 @@ blurb:
 
     We believe that diversity is essential to our future success, and that we all do better when we all do better.
 intro:
-  heading: What we offer
-  text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-    non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-products: []
-values:
-  heading: Our values
-  text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-    non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  intro:
+  heading: Our Sponsors
+  text: Code Kitty would not be possible without the following:
+  > **Startup Weekend Twin Cities, Propel Nonprofits, 3M Visting Wizards, Amelar Family Foundation, Cycling Ladies In Tech, The Works Museum, The Bakken Museum, Wayzata Public Schools, Girl Scouts MN, Minneapolis Public Schools, Adafruit Industries, Google, Amazon, Digi-key, Utepils Brewing, Code.org, GiveMN, and tons of awesome people like you!**
 ---
