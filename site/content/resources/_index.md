@@ -1,10 +1,9 @@
 ---
-title: Workshops
+title: Resources
 type: products
-heading: What we offer
+heading: Links and Downloads
 description: >-
-  We offer workshops for learners grades 3 through 5 (and up!). See below for more information.
-
+  Description here
 blurb:
   heading: Workshops
   text: >-
@@ -15,17 +14,16 @@ intro:
   blurbs:
     - image: 
       text: >
-        Our innovative workshop model allows students to build a 3D printed robot, learn to code in Python, and then learn how to code the robot they built - and they get to keep the robot at the end!
+        Links for Younger learners
     - image: 
       text: >
-        We are developing an ever-expanding collection of online and interactive workshop content so we can work with distance learning/remote students. We combine workshop content from several different media (interactive coding, hands-on building, online video and games, and even comic books!) to engage as many learners as possible.
+        Workshop/Robot Resources
     - image: 
       text: >
-        Our robots are 3D printed using environmentally friendly biodegradable PLA plastic made from corn starch, not fossil fuels. The plastic can be recycled at the end of its life, and all of our designs are freely available online (see our Resources page), so you can 
-        replace them or even remix your own version.
+        Links for Middle/High School Students
     - image:
       text: >
-        We are not a company building a robot toy - we are a Minnesota based 501(c)(3) education non-profit. We partner with many different organizations, and will come to you to offer our workshop at very low cost. 
+        Adult/Professional Development Resources
 #main:
 #  heading: Helping students succeed with STEM.
 #  description: >
