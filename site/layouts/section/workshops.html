@@ -2,7 +2,11 @@
 
 {{ partial "short-text" .Params.blurb}}
 
-<!--{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title) }} -->
+{{ partial "table" .Params.pricing }}
+
+
+<!--
+  {{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title) }} 
 
 {{ partial "4-up" .Params.intro }}
 
@@ -14,8 +18,9 @@
     <p>{{ .description }}</p>
   </div>
 </div>
-
+-->
 <!-- Image grid -->
+<!--
 {{ partial "image-grid" . }}
 {{ end }}
 
@@ -24,10 +29,9 @@
     {{ partial "blockquote" . }}
   {{ end }}
 </div>
-
+-->
 <!-- Full-width image -->
+<!--
 <img src="{{ .Params.full_image }}" alt="" class="db w-100">
-
-{{ partial "table" .Params.pricing }}
-
+-->
 {{ end }}
