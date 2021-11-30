@@ -27,9 +27,21 @@ let outputStream;
 var term = new Terminal();
 term.open(document.getElementById('terminal'));
 term.write('Hello from CodeKitty $')
-term.onData((data) => {
-  term.write(data);
-})
+// term.onData((data) => {
+//   term.write(data);
+// })
+term.onKey((key) => {
+  console.log(key);
+  console.log();
+  if (key.domEvent.keyCode == 13){
+    term.writeln('');
+    term.write('Hello from CodeKitty $');
+  }
+  else{term.write(key.key);}
+});
+// term.onLineFeed(() => {
+//   term.writeln('');
+// })
 
 const log = document.getElementById('log');
 const ledCBs = document.querySelectorAll('input.led');
