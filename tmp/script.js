@@ -36,12 +36,14 @@ term.onKey((key) => {
   if (key.domEvent.keyCode == 13){
     term.writeln('');
     term.write('Hello from CodeKitty $');
+    //writeToStream('afafdafasdfafd');
+    
   }
-  else{term.write(key.key);}
+  else{
+    term.write(key.key);
+    writeToStream(key.key);
+  }
 });
-// term.onLineFeed(() => {
-//   term.writeln('');
-// })
 
 const log = document.getElementById('log');
 const ledCBs = document.querySelectorAll('input.led');
@@ -79,6 +81,7 @@ async function connect() {
   outputStream = encoder.writable;
 
   // CODELAB: Send CTRL-C and turn off echo on REPL
+  writeToStream('\x03', 'echo(false);');
 
   // CODELAB: Add code to read the stream here.
   let decoder = new TextDecoderStream();
