@@ -3,7 +3,7 @@ title: We help students succeed with STEM.
 subtitle: Check out our innovative coding and robotics workshops!
 image: img/home-jumbotron.png
 blurb:
-  heading: Why Code Kitty?
+  heading: Our Mission
   text: 
     We are a Minnesota based 501(c)(3)  non-profit whose mission is to show
     girls and BIPOC students that technology skills are available to anyone with
