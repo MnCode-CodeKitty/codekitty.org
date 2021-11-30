@@ -1,102 +1,65 @@
----
-title: Our Coffee
+title: Resources
 type: products
-image: /img/products-jumbotron.jpg
-heading: What we offer
+heading: Links and Downloads
 description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  Description here
+blurb:
+  heading: Workshops
+  text: >-
+    Our workshops have helped over 200 students succeed at coding, robotics, and engineering.   
+    All of our donations go back into providing our robot kits and instructional materials as cheaply as possible, and we rely on grants to cover our operational costs.
+
 intro:
   blurbs:
-    - image: /img/illustrations-coffee.svg
+    - image: 
       text: >
-        We sell green and roasted coffee beans that are sourced directly from
-        independent farmers and farm cooperatives. We’re proud to offer a
-        variety of coffee beans grown with great care for the environment and
-        local communities. Check our post or contact us directly for current
-        availability.
-    - image: /img/illustrations-coffee-gear.svg
+        Links for Younger learners
+    - image: 
       text: >
-        We offer a small, but carefully curated selection of brewing gear and
-        tools for every taste and experience level. No matter if you roast your
-        own beans or just bought your first french press, you’ll find a gadget
-        to fall in love with in our shop.
-    - image: /img/illustrations-tutorials.svg
+        Workshop/Robot Resources
+    - image: 
       text: >
-        Love a great cup of coffee, but never knew how to make one? Bought a
-        fancy new Chemex but have no clue how to use it? Don't worry, we’re here
-        to help. You can schedule a custom 1-on-1 consultation with our baristas
-        to learn anything you want to know about coffee roasting and brewing.
-        Email us or call the store for details.
-    - image: /img/illustrations-meeting-space.svg
+        Links for Middle/High School Students
+    - image:
       text: >
-        We believe that good coffee has the power to bring people together.
-        That’s why we decided to turn a corner of our shop into a cozy meeting
-        space where you can hang out with fellow coffee lovers and learn about
-        coffee making techniques. All of the artwork on display there is for
-        sale. The full price you pay goes to the artist.
-  heading: What we offer
-  description: >
-    Kaldi is the ultimate spot for coffee lovers who want to learn about their
-    java’s origin and support the farmers that grew it. We take coffee
-    production, roasting and brewing seriously and we’re glad to pass that
-    knowledge to anyone. This is an edit via identity...
-main:
-  heading: Great coffee with no compromises
-  description: >
-    We hold our coffee to the highest standards from the shrub to the cup.
-    That’s why we’re meticulous and transparent about each step of the coffee’s
-    journey. We personally visit each farm to make sure the conditions are
-    optimal for the plants, farmers and the local environment.
-  image1:
-    alt: A close-up of a paper filter filled with ground coffee
-    image: /img/products-grid3.jpg
-  image2:
-    alt: A green cup of a coffee on a wooden table
-    image: /img/products-grid2.jpg
-  image3:
-    alt: Coffee beans
-    image: /img/products-grid1.jpg
-testimonials:
-  - author: Elisabeth Kaurismäki
-    quote: >-
-      The first time I tried Kaldi’s coffee, I couldn’t even believe that was
-      the same thing I’ve been drinking every morning.
-  - author: Philipp Trommler
-    quote: >-
-      Kaldi is the place to go if you want the best quality coffee. I love their
-      stance on empowering farmers and transparency.
-full_image: /img/products-full-width.jpg
+        Adult/Professional Development Resources
+#main:
+#  heading: Helping students succeed with STEM.
+#  description: >
+    
+#
+#  image1:
+#    alt: A close-up of a paper filter filled with ground coffee
+#    image: /img/products-grid3.jpg
+#  image2:
+#    alt: A green cup of a coffee on a wooden table
+#    image: /img/products-grid2.jpg
+#  image3:
+#    alt: Coffee beans
+#    image: /img/products-grid1.jpg
+#testimonials:
+#  - author: Elisabeth Kaurismäki
+#    quote: >-
+#      The first time I tried Kaldi’s coffee, I couldn’t even believe that was
+#      the same thing I’ve been drinking every morning.
+#  - author: Philipp Trommler
+#    quote: >-
+#      Kaldi is the place to go if you want the best quality coffee. I love their
+#      stance on empowering farmers and transparency.
+#full_image: /img/products-full-width.jpg
+#
 pricing:
-  heading: Monthly subscriptions
+  heading: Suggested Donations
   description: >-
-    We make it easy to make great coffee a part of your life. Choose one of our
-    monthly subscription plans to receive great coffee at your doorstep each
-    month. Contact us about more details and payment info.
+    We've worked really hard to keep our costs down, and are proud to offer our 3 hour in person workshop, which includes the robot kit, for a low suggested donation per student. 
+    If this isn't feasible for you, head to our Contact page and talk to us about it. We can probably work something out! 
+    All amounts are per student. 
+    Stay tuned for more workshop options (including online/remote) in the near future!
   plans:
-    - description: Perfect for the drinker who likes to enjoy 1-2 cups per day.
+    - description: Our classic in-person small group workshop
       items:
-        - 3 lbs of coffee per month
-        - Green or roasted beans"
-        - One or two varieties of beans"
-      plan: Small
+        - A 3D printed robot kit for each student
+        - Three hours of hands-on instruction in builing the robot and coding in Python
+      plan: In person small group
       price: '50'
-    - description: 'Great for avid drinkers, java-nsoving couples and bigger crowds'
-      items:
-        - 6 lbs of coffee per month
-        - Green or roasted beans
-        - Up to 4 different varieties of beans
-      plan: Big
-      price: '80'
-    - description: Want a few tiny batches from different varieties? Try our custom plan
-      items:
-        - Whatever you need
-        - Green or roasted beans
-        - Unlimited varieties
-      plan: Custom
-      price: '?'
----
-
 
