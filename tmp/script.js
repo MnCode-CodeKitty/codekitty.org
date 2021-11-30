@@ -26,11 +26,10 @@ let outputStream;
 
 var term = new Terminal();
 term.open(document.getElementById('terminal'));
-term.writeln('Hello from \x1B[1;3;31mxterm.js\x1B[0m $ \n')
-term.writeln('asdfadf')
-term.onData('data', (data) => {
-  webserial.write(data);
-});
+term.write('Hello from CodeKitty $')
+term.onData((data) => {
+  term.write(data);
+})
 
 const log = document.getElementById('log');
 const ledCBs = document.querySelectorAll('input.led');
@@ -38,18 +37,13 @@ const divLeftBut = document.getElementById('leftBut');
 const divRightBut = document.getElementById('rightBut');
 const butConnect = document.getElementById('butConnect');
 
-const GRID_HAPPY = [1,0,0,0,1,0,0,0,0,0,0,0,1,0,0,1,0,0,0,1,0,1,1,1,0];
-const GRID_SAD =   [1,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,1,1,1,0,1,0,0,0,1];
-const GRID_OFF =   [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];
-const GRID_HEART = [0,1,0,1,0,1,1,1,1,1,1,1,1,1,1,0,1,1,1,0,0,0,1,0,0];
-
 
 document.addEventListener('DOMContentLoaded', () => {
   butConnect.addEventListener('click', clickConnect);
 
   // CODELAB: Add feature detection here.
-  const notSupported = document.getElementById('notSupported');
-  notSupported.classList.toggle('hidden', 'serial' in navigator);
+  // const notSupported = document.getElementById('notSupported');
+  // notSupported.classList.toggle('hidden', 'serial' in navigator);
 
 });
 
