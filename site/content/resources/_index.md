@@ -1,4 +1,3 @@
----
 title: Resources
 type: products
 heading: Links and Downloads
@@ -63,6 +62,4 @@ pricing:
         - Three hours of hands-on instruction in builing the robot and coding in Python
       plan: In person small group
       price: '50'
----
-
 
