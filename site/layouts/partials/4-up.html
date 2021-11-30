@@ -8,7 +8,13 @@
 				<div class="ph2-ns w-50-ns mb4">
 					<img src="{{ .image }}" alt="" class="center db mb3" style="width: 240px">
 					<p>{{ .text }}</p>
-				</div>
+					{{ range $index, $element := .Params.values }}
+					{{ if modBool $index 2 }}
+					  {{ partial "media-block" $element }}
+					{{ else }}
+					  {{ partial "media-block-reverse" $element }}
+					{{ end }}
+				  {{ end }}/div>
 			{{ end }}
 		</div>
 	</div>
