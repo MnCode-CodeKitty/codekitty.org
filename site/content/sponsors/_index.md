@@ -1,4 +1,6 @@
+---
 title: Sponsors
+subtitle: Code kitty is made possible by the following
 blurb:
   heading: Sponsors
   text: --
@@ -23,3 +25,4 @@ blurb:
     - Code.org
     - GiveMN
     - and tons of awesome people like you!
+---
