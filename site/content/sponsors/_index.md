@@ -3,8 +3,8 @@ title: Sponsors
 subtitle: Code kitty is made possible by the following
 sponsors:
   heading: Sponsors
-  text: --
-    Code Kitty has been made possible by the following sponsors
+  text:
+    Code Kitty has been made possible by the following sponsors:
     - ECMC Foundation
     - Startup Weekend Twin Cities
     - Propel Nonprofits
