@@ -3,7 +3,7 @@ title: Sponsors
 subtitle: Code kitty is made possible by the following
 sponsors:
   heading: Sponsors
-  text: |
+  text:
   - "Code Kitty has been made possible by the following sponsors:"
   - "ECMC Foundation"
   - "Startup Weekend Twin Cities"
