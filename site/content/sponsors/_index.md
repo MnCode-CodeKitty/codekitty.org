@@ -1,7 +1,7 @@
 ---
 title: Sponsors
 subtitle: Code kitty is made possible by the following
-blurb:
+sponsors:
   heading: Sponsors
   text: --
     Code Kitty has been made possible by the following sponsors
