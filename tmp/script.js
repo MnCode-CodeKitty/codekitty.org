@@ -69,7 +69,7 @@ async function connect() {
   outputStream = encoder.writable;
 
   // CODELAB: Send CTRL-C and turn off echo on REPL
-  writeToStream('\x03');
+  //writeToStream('\x03');
 
   // CODELAB: Add code to read the stream here.
   let decoder = new TextDecoderStream();
