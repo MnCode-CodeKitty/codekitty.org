@@ -25,28 +25,13 @@ let inputStream;
 let outputStream;
 
 const curser = 'Hello from CodeKitty $'
-var cur_line = "";
-var read_line = "";
 var term = new Terminal();
 term.open(document.getElementById('terminal'));
 term.write(curser)
 
 term.onKey((key) => {
   console.log(key);
-  if (['\x03','\x04'].includes(key.key)){
-    console.log("special")
-    writeToStream(key.key);
-  }
-  else if (key.domEvent.keyCode == 13){
-    writeToStream(cur_line);
-    cur_line = '';
-    term.writeln('');
-    term.write(curser);
-  }
-  else{
-    term.write(key.key);
-    cur_line += key.key;
-  }
+  writeToStream(key.key);
 });
 
 const log = document.getElementById('log');
@@ -84,7 +69,7 @@ async function connect() {
   outputStream = encoder.writable;
 
   // CODELAB: Send CTRL-C and turn off echo on REPL
-  writeToStream('\x03', 'echo(false);');
+  writeToStream('\x03');
 
   // CODELAB: Add code to read the stream here.
   let decoder = new TextDecoderStream();
@@ -102,8 +87,6 @@ async function connect() {
  * Closes the Web Serial connection.
  */
 async function disconnect() {
-  // drawGrid(GRID_OFF);
-  // sendGrid();
 
   // CODELAB: Close the input stream (reader).
   if (reader) {
@@ -164,9 +147,9 @@ async function readLoop() {
     if (value) {
       //read_line += value;
       console.log('readline',value);
-      term.writeln('');
+      //term.writeln('');
       term.write(value);
-      term.write(curser);
+      //term.write(curser);
     }
     if (done) {
       console.log('[readLoop] DONE', done);
