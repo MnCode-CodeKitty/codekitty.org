@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Github",
+        "link": "https://github.com/MnCode-CodeKitty",
+        "image": "social/github.svg"
+    },
+    {
+        "name": "Twitter",
+        "link": "https://twitter.com/MNCode_Kitty",
+        "image": "social/twitter.svg"
+    },
+    {
+        "name": "Facebook",
+        "link": "https://www.facebook.com/MNcodekitty",
+        "image": "social/facebook.png"
+    },
+    {
+        "name": "Thingiverse",
+        "link": "https://www.thingiverse.com/codekitty",
+        "image": "social/thingiverse.png"
+    }
+]
