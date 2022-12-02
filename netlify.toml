@@ -1,11 +1,10 @@
-[build]
-  publish = "/public"
-  command = "hugo --themesDir themes"
-
 [build.environment]
-  HUGO_VERSION = "0.74.3"
-  HUGO_THEME = "hugo-hero-theme"
-  HUGO_BASEURL = "/"
+  YARN_VERSION = "1.12.1"
+  NPM_VERSION = "6.4.1"
 
-[dev]
-framework = "hugo"
+[build]
+  command = "yarn build"
+  publish = "dist"
+
+[context.deploy-preview]
+  command = "yarn build:preview"

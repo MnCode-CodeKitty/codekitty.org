@@ -1,2 +1,5 @@
-# Local Netlify folder
-.netlify
+node_modules/
+dist/
+site/data/webpack.json
+/npm-debug.log
+yarn-error.log
