@@ -15,9 +15,7 @@ module.exports = merge(common, {
 
   devServer: {
     port: process.env.PORT || 3000,
-    contentBase: path.join(process.cwd(), "./dist"),
-    watchContentBase: true,
-    quiet: false,
+    static: path.join(process.cwd(), "./dist"),
     open: true,
     historyApiFallback: {
       rewrites: [{from: /./, to: "404.html"}]
