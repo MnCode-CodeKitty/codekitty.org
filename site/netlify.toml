@@ -1,0 +1,11 @@
+[build]
+  publish = "/public"
+  command = "hugo --themesDir themes"
+
+[build.environment]
+  HUGO_VERSION = "0.74.3"
+  HUGO_THEME = "hugo-hero-theme"
+  HUGO_BASEURL = "/"
+
+[dev]
+framework = "hugo"
