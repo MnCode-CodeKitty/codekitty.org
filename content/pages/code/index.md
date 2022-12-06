@@ -28,6 +28,6 @@ heroBackground: 'https://source.unsplash.com/sO-JmQj95ec/1600x1000'
 
 {{< /tab >}}
 {{< tab tabNum="3" >}}
-**Bluetooth coming soon!**
+[Bluetooth Terminal (adafruit)](https://code.circuitpython.org/)
 {{< /tab >}}
 {{< /tabs >}}
