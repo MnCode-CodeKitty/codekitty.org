@@ -2,9 +2,6 @@
   "cms": {
     "js": "cms.js"
   },
-  "main": {
-    "js": "main.js"
-  },
   "": {
     "js": [
       "0edd95f37006d5def21312c483e7c520.js",
