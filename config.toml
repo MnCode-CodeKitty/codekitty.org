@@ -31,7 +31,7 @@ unsafe= true
     allow = ['^dart-sass-embedded$', '^go$', '^npx$', '^postcss$']
     osEnv = ['(?i)^((HTTPS?|NO)_PROXY|PATH(EXT)?|APPDATA|TE?MP|TERM)$']
   [security.funcs]
-    getenv = ['^HUGO_','CONTEXT']
+    getenv = ['^HUGO_','CONTEXT','URL']
   [security.http]
     methods = ['(?i)GET|POST']
     urls = ['.*']
