@@ -1,4 +1,4 @@
-baseURL = "https://638f09e5b4fc53000929de7e--codekitty.netlify.app/"
+baseURL = "/"
 languageCode = "en-us"
 title = "Code Kitty"
 themesDir = "themes"
