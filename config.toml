@@ -1,0 +1,66 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Code Kitty"
+themesDir = "themes"
+theme = ["hugo-dynamic-tabs", "hugo-hero-theme"]
+
+[markup.goldmark.renderer]
+unsafe= true
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.55.0"
+    
+[params]
+  google_analytics_id="UA-124557833-1"
+
+  [params.homepage_meta_tags]
+    meta_description = "Code Kitty is a 501(c)(3) non-profit whose mission is to help students succeed in STEM."
+    meta_og_title = "Code Kitty"
+    meta_og_type = "website"
+    meta_og_url = "https://codekitty.org"
+    meta_og_image = "https://raw.githubusercontent.com/JugglerX/hugo-hero-theme/master/images/tn.png"
+    meta_og_description = ""
+    meta_twitter_card = "summary"
+    meta_twitter_site = "@MNCode-CodeKitty"
+
+[security]
+  enableInlineShortcodes = false
+  [security.exec]
+    allow = ['^dart-sass-embedded$', '^go$', '^npx$', '^postcss$']
+    osEnv = ['(?i)^((HTTPS?|NO)_PROXY|PATH(EXT)?|APPDATA|TE?MP|TERM)$']
+  [security.funcs]
+    getenv = ['^HUGO_','CONTEXT']
+  [security.http]
+    methods = ['(?i)GET|POST']
+    urls = ['.*']
+
+[[menu.main]]
+	name = "Code"
+	url = "/Code/"
+    weight = 1
+
+[[menu.main]]
+    name = "Workshops"
+    url = "/workshops/"
+    weight = 2
+
+[[menu.main]]
+    name = "Donate"
+    url = "/donate/"
+    weight = 3
+
+[[menu.main]]
+    name = "Sponsors"
+    url = "/sponsors/"
+    weight = 4
+
+[[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 5
+
+[permalinks]
+  post = "/:year/:month/:day/:slug/"
+  pages = "/:filename/"
