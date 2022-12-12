@@ -1,7 +1,8 @@
 baseURL = "/"
 languageCode = "en-us"
 title = "Code Kitty"
-themesDir = "themes"
+contentDir = "site/content"
+dataDir = "site/data"
 theme = ["hugo-dynamic-tabs", "hugo-hero-theme"]
 
 [markup.goldmark.renderer]
