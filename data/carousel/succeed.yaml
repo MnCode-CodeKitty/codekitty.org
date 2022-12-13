@@ -1,0 +1,8 @@
+weight: 4
+title: "We help students succeed in STEM"
+description: >
+  <ul class="list-style-none">
+    <li>Code Kitty offers coding and robotics workshops for students grade 3+</li>
+  </ul>
+#image: "img/girl-STEM.png"
+#href: "https://devcows.github.io/hugo-universal-theme/"

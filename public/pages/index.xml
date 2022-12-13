@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on Code Kitty</title>
+    <link>/pages/</link>
+    <description>Recent content in Pages on Code Kitty</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 06 Dec 2018 09:29:16 +1000</lastBuildDate><atom:link href="/pages/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Thu, 06 Dec 2018 09:29:16 +1000</pubDate>
+      
+      <guid>/about/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>History</title>
+      <link>/history/</link>
+      <pubDate>Thu, 06 Dec 2018 09:29:16 +1000</pubDate>
+      
+      <guid>/history/</guid>
+      <description>About Heading  Theres no limits, Lorem ipsum dolor sit amet, et essent mediocritatem quo, choro volumus oporteat an mei. Numquam dolores mel eu, mea docendi omittantur et, mea ea duis erat. Elit melius cu ius. Per ex novum tantas putant, ei his nullam aliquam apeirian. Aeterno quaestio constituto sea an, no eum intellegat assueverit.
+    Theres no limits, Lorem ipsum dolor sit amet, et essent mediocritatem quo, choro volumus oporteat an mei.</description>
+    </item>
+    
+    <item>
+      <title>Code</title>
+      <link>/code/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/code/</guid>
+      <description> Web USB Bluetooth   Code in Python 2 right in your browser! Click in the white space below and start typing!
+For even more fun learning Python Turtle, check out The Art of Code!
+ Hook up your USB cable, then click connectChoose the connection with ACM in the name
+ Bluetooth Terminal (adafruit)   </description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/contact/</guid>
+      <description>Whether you&#39;d like to schedule a workshop, volunteer, partner, donate, or contact us for any other reason, we&amp;rsquo;d love to hear from you!
+Drop us a line below  Name    Email      Your message              Submit    &amp;nbsp;</description>
+    </item>
+    
+    <item>
+      <title>Donate</title>
+      <link>/donate/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/donate/</guid>
+      <description>Please consider making a tax-exempt donation to our non-profit helping further our mission and fund our efforts.  You can also add Code Kitty as your Charity!
+Just go to https://smile.amazon.com and choose to support Code Kitty (in Plymouth, MN)!</description>
+    </item>
+    
+    <item>
+      <title>Sponsors</title>
+      <link>/sponsors/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sponsors/</guid>
+      <description>Code Kitty has been made possible by the following sponsors:  ECMC Foundation Startup Weekend Twin Cities Propel Nonprofits 3M Visting Wizards Amelar Family Foundation Cycling Ladies In Tech The Works Museum The Bakken Museum Wayzata Public Schools Girl Scouts MN Minneapolis Public Schools City of Lakes Americorps Adafruit Industries Google Amazon Digi-key Utepils Brewing Code.org GiveMN and tons of awesome people like you!  </description>
+    </item>
+    
+    <item>
+      <title>Workshops</title>
+      <link>/workshops/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/workshops/</guid>
+      <description>Our workshops have helped over 200 students succeed at coding, robotics, and engineering. All of our donations go back into providing our robot kits and instructional materials as cheaply as possible, and we rely on grants to cover our operational costs.
+Suggested Donations We&amp;rsquo;ve worked really hard to keep our costs down, and are proud to offer our 3 hour in person workshop, which includes the robot kit, for a low suggested donation per student.</description>
+    </item>
+    
+  </channel>
+</rss>
