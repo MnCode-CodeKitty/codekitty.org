@@ -8,3 +8,7 @@ keywords = ["FAQ","How do I","questions","what if"]
 ****
 
 [Circuit Python USB/Bluetooth Web Terminal](https://code.circuitpython.org/)
+
+* *
+* *
+* *
