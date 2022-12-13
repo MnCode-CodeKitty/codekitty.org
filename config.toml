@@ -48,6 +48,13 @@ pluralizelisttitles = false
     parent     = "menu.code"
     weight     = 3
 
+[[menu.main]]
+    name       = "Code your robot over Bluetooth LE"
+    identifier = "menu.codeBT"
+    url        = "/bt"
+    parent     = "menu.code"
+    weight     = "4"
+
 #[[menu.main]]
 #    name       = "Workshops"
 #    identifier = "menu.workshops"
