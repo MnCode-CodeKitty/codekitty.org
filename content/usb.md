@@ -3,12 +3,23 @@ title = "Code your robot"
 description = "Code in Python right in your browser!"
 keywords = ["FAQ","How do I","questions","what if"]
 +++
+
+{{% columns %}}
+
+# Left Content
 **Hook up your USB cable, then click connect**
 *Choose the connection with ACM in the name*
 
-{{< xterm >}}
+{{<xterm>}}
 
-{{< details "> ### Code Kitty module [click here]" >}}
+<---> <!-- magic separator, between columns -->
+
+# Mid Content
+
+<---> <!-- magic separator, between columns -->
+
+# Right Content
+{{< details "### Code Kitty module [click here]" >}}
 **To use:** ```from codekitty import *```
 
 ```go(*x*)```
@@ -42,3 +53,5 @@ To use colors:
 
 
 {{< /details >}}
+
+{{% /columns %}}
