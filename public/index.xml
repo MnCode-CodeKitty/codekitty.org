@@ -82,7 +82,7 @@ We&amp;rsquo;ll start with creating a new site with a very basic template.</desc
       
       <guid>/usb/</guid>
       <description>Hook up your USB cable, then click connect Choose the connection with ACM in the name
- </description>
+ This is the summary Collapsed text  </description>
     </item>
     
     <item>
@@ -91,8 +91,7 @@ We&amp;rsquo;ll start with creating a new site with a very basic template.</desc
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/contact/</guid>
-      <description>We are here to help you Are you curious about something? Do you have some kind of problem with our products? As am hastily invited settled at limited civilly fortune me. Really spring in extent an by. Judge but built gay party world. Of so am he remember although required. Bachelor unpacked be advanced at. Confined in declared marianne is vicinity.
-Please feel free to contact us, our customer service center is working for you 24/7.</description>
+      <description>Connect to Code Kitty Please fill out the contact form and connect with us. We&amp;rsquo;d love to hear from you!</description>
     </item>
     
     <item>
@@ -104,6 +103,15 @@ Please feel free to contact us, our customer service center is working for you 2
       <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
 ▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png  should become
 ▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
+    </item>
+    
+    <item>
+      <title>Workshops</title>
+      <link>/workshops/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/workshops/</guid>
+      <description>Our workshops have helped over 300 students succeed at coding, robotics, and engineering. All of our donations go back into providing our robot kits and instructional materials as cheaply as possible, and we rely on grants to cover our operational costs. Our robots are printed from biodegradable PLA plastic (made from corn starch!), on 3D printers powered with solar power. Green is the new black.  Pricing ###Suggested Donations### We&amp;rsquo;ve worked really hard to keep our costs down, and are proud to offer our 3 hour in person workshop, which includes the robot kit, for a low suggested donation per student.</description>
     </item>
     
   </channel>
