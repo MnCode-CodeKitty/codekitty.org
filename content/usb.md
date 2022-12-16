@@ -9,6 +9,8 @@ keywords = ["FAQ","How do I","questions","what if"]
 {{< xterm >}}
 
 {{< details "> ### Code Kitty module [click here]" >}}
+**To use:** ```from codekitty import *```
+
 ```go(*x*)```
 : drive forward for *x* seconds
 
