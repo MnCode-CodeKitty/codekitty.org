@@ -13,10 +13,10 @@
 
 
 
-<meta name="keywords" content="code kitty, coding, robots, STEM, FAQ, How do I, questions, what if">
+<meta name="keywords" content="code kitty, coding, robots, STEM, robot, usb, python">
 
 
-<meta name="description" content="Code in Python right in your browser!">
+<meta name="description" content="Code your robot over USB">
 
 <meta name="generator" content="Hugo 0.92.2" />
 
@@ -36,7 +36,7 @@
 
 
 
-<link href="/css/custom.css?1671221414" rel="stylesheet">
+<link href="/css/custom.css?1671402041" rel="stylesheet">
 
 
 
@@ -69,7 +69,7 @@
 <meta property="og:title" content="Code your robot">
 <meta property="og:type" content="website">
 <meta property="og:url" content="/usb/" />
-<meta property="og:description" content="Code in Python right in your browser!">
+<meta property="og:description" content="Code your robot over USB">
 <meta property="og:image" content="/img/sharing-default.png">
 <meta property="og:image:type" content="image/png">
 
@@ -89,7 +89,7 @@
 
 <meta name="twitter:image" content="/img/sharing-default.png">
 
-<meta name="twitter:description" content="Code in Python right in your browser!">
+<meta name="twitter:description" content="Code your robot over USB">
 
 
     
@@ -197,76 +197,79 @@
 
                         <div>
                           <div class="md-columns">
-
 <div class="markdown-inner">
- <!-- begin columns block -->
-# Left Content
-**Hook up your USB cable, then click connect**
-*Choose the connection with ACM in the name*
-
-<iframe width="100%" height="500px" name="iframe2" src="/xterm/"
+<p><strong>Hook up your USB cable, then click connect</strong></p>
+<p><em>Choose the connection with ACM in the name</em></p>
+<iframe name="iframe2" src="/xterm/"
+    width="400px"
+    height="600px"
     frameborder="0" 
     scrolling="no" 
-    marginwidth="0"
-    marginheight="0">
+    marginwidth="5"
+    marginheight="5">
 </iframe>
-
-
 </div>
-
 <div class="markdown-inner">
- <!-- magic separator, between columns -->
-
-# Mid Content
-
-
-</div>
-
-<div class="markdown-inner">
- <!-- magic separator, between columns -->
-
-# Right Content
-<details>
-  <summary><blockquote>
-<h3 id="code-kitty-module-click-here">Code Kitty module [click here]</h3>
-</blockquote>
+<p>  <br />
+  <br />
+  <br /></p>
+<p>    <strong>(Click below for Instructions:)</strong></p>
+<details class="myDetails">
+  <summary><h3 id="-code-kitty-module">🗀 Code Kitty module</h3>
 </summary>
-  <p><strong>To use:</strong> <code>from codekitty import *</code></p>
-<dl>
-<dt><code>go(*x*)</code></dt>
-<dd>drive forward for <em>x</em> seconds</dd>
-<dt><code>back(*x*)</code></dt>
-<dd>drive backward for <em>x</em> seconds</dd>
-<dt><code>left(*x*)</code></dt>
-<dd>turn left for <em>x</em> seconds</dd>
-<dt><code>right(*x*)</code></dt>
-<dd>turn right for <em>x</em> seconds</dd>
-</dl>
-<hr>
-<dl>
-<dt><code>meow()</code></dt>
-<dd>Have your kitty robot say &ldquo;meow&rdquo;</dd>
-<dt><code>purr()</code></dt>
-<dd>Have your kitty robot purrr (happy kitty!)</dd>
-<dt><code>beep()</code></dt>
-<dd>make a beep sound</dd>
-</dl>
-<hr>
-<p>To use colors:</p>
-<dl>
-<dt><code>colors['*c*']</code></dt>
-<dd>use a color (replace <em>c</em> with the name of the color)</dd>
-<dt><code>colors[]</code></dt>
-<dd>list all the colors in colors[]</dd>
-</dl>
-
+  <h4 id="to-use-import">To use (import):</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">from</span> codekitty <span style="color:#f92672">import</span> <span style="color:#f92672">*</span>
+</code></pre></div><details class="myDetails">
+  <summary><h4 id="-moving">🗀 Moving</h4>
+</summary>
+  <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">go(x)
+</code></pre></div><p>drive forward for <em>x</em> seconds</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">back(x)
+</code></pre></div><p>drive backward for <em>x</em> seconds</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">left(x)
+</code></pre></div><p>turn left for <em>x</em> seconds</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">right(<span style="color:#f92672">*</span>x<span style="color:#f92672">*</span>)
+</code></pre></div><p>turn right for <em>x</em> seconds</p>
 </details>
-
-
+<details class="myDetails">
+  <summary><h4 id="-sounds">🗀 Sounds</h4>
+</summary>
+  <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">meow()
+</code></pre></div><p>Have your kitty robot say &ldquo;meow&rdquo;</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">purr()
+</code></pre></div><p>Have your kitty robot purrr (happy kitty!)</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">beep()
+</code></pre></div><p>make a beep sound</p>
+</details>
+<details class="myDetails">
+  <summary><h4 id="-colors">🗀 Colors</h4>
+</summary>
+  <p>To use colors, use a value in the <em>colors[]</em> dictionary</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">colors[<span style="color:#e6db74">&#39;c&#39;</span>]
+</code></pre></div><p>use a color (replace <em>c</em> with the name of the color)</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">for</span> c <span style="color:#f92672">in</span> colors[]: print c
+</code></pre></div><p>list all the colors in colors[]</p>
+</details>
+<details class="myDetails">
+  <summary><h4 id="-lights">🗀 Lights</h4>
+</summary>
+  <ul>
+<li>There are ten led lights called <em>Neopixels</em> on your robot.</li>
+<li>They are numbered 0-9 (not 1-10!) in a circle starting with the one to the left of the USB jack, and going around <em>counterclockwise</em>.</li>
+<li><em>Note: setting a pixel to <strong>black</strong> turns it off!</em></li>
+</ul>
+<p>To set one to a color, use:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">pixels[x] <span style="color:#f92672">=</span> colors[<span style="color:#e6db74">&#39;c&#39;</span>]
+</code></pre></div><p><em>where <strong>x</strong> is a number between 0 and 9, and <strong>c</strong> is the name of a color in colors[]</em></p>
+<p>To set them ALL, you can use a for() loop:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">10</span>):
+  j<span style="color:#f92672">=</span>i<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>
+  pixels[j] <span style="color:#f92672">=</span> colors[<span style="color:#e6db74">&#39;*c*&#39;</span>]
+</code></pre></div><p><em>(replace c with the name of the color)</em></p>
+</details>
+</details>
 </div>
-
 </div>
-
 
                         </div>
 

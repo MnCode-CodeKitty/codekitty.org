@@ -62,7 +62,7 @@ We&amp;rsquo;ll start with creating a new site with a very basic template.</desc
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/code/</guid>
-      <description> function resizeIframe(obj) { obj.style.height = 1.05*obj.contentWindow.document.body.scrollHeight + &#39;px&#39;; }   </description>
+      <description> function resizeIframe(obj) { obj.style.height = 1.05*obj.contentWindow.document.body.scrollHeight + &#39;px&#39;; }    </description>
     </item>
     
     <item>
@@ -81,8 +81,14 @@ We&amp;rsquo;ll start with creating a new site with a very basic template.</desc
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/usb/</guid>
-      <description># Left Content **Hook up your USB cable, then click connect** *Choose the connection with ACM in the name*   # Mid Content  # Right Content   Code Kitty module [click here]   To use: from codekitty import *
- go(*x*) drive forward for x seconds back(*x*) drive backward for x seconds left(*x*) turn left for x seconds right(*x*) turn right for x seconds    meow() Have your kitty robot say &amp;ldquo;meow&amp;rdquo; purr() Have your kitty robot purrr (happy kitty!</description>
+      <description>Hook up your USB cable, then click connect
+Choose the connection with ACM in the name
+    (Click below for Instructions:)
+🗀 Code Kitty module  To use (import): from codekitty import * 🗀 Moving  go(x) drive forward for x seconds
+back(x) drive backward for x seconds
+left(x) turn left for x seconds
+right(*x*) turn right for x seconds
+ 🗀 Sounds  meow() Have your kitty robot say &amp;ldquo;meow&amp;rdquo;</description>
     </item>
     
     <item>
