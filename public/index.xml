@@ -87,7 +87,7 @@ Choose the connection with ACM in the name
 🗀 Code Kitty module  To use (import): from codekitty import * 🗀 Moving  go(x) drive forward for x seconds
 back(x) drive backward for x seconds
 left(x) turn left for x seconds
-right(*x*) turn right for x seconds
+right(x) turn right for x seconds
  🗀 Sounds  meow() Have your kitty robot say &amp;ldquo;meow&amp;rdquo;</description>
     </item>
     
