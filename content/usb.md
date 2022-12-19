@@ -85,29 +85,30 @@ list all the colors in colors[]
 
 {{% /details %}}
 
-{{% details "#### 🗀 Lights" %}}
+{{% details "#### 🗀 Board" %}}
 
-- There are ten led lights called *Neopixels* on your robot.
-- They are numbered 0-9 (not 1-10!) in a circle starting with the one to the left of the USB jack, and going around *counterclockwise*.
-- *Note: setting a pixel to **black** turns it off!*
+The Circuit Playground (express or bluefruit) circuit board in your robot comes with two motors connected to it (the yellow connectors on **A3** and **A6**). 
+
+These two "analog pins" (**A3** and **A6**) are just two of the connectors you can use on your robot. These are defined in a special library called **board**, and if you want to use them, first do:
+
+```python
+import board
+```
+
+And then if you want to list all of the connections defined in **board**, do:
+
+```python
+dir('board')
+
+
+
+
 
 To set one to a color, use:
 
 ```python
 pixels[x] = colors['c']
 ```
-
-*where **x** is a number between 0 and 9, and **c** is the name of a color in colors[]*
-
-To set them ALL, you can use a for() loop:
-
-```python
-for i in range(10):
-  j=i-1
-  pixels[j] = colors['*c*']
-```
-
-*(replace c with the name of the color)*
 
 {{% /details %}}
 
