@@ -36,7 +36,7 @@
 
 
 
-<link href="/css/custom.css?1671475634" rel="stylesheet">
+<link href="/css/custom.css?1671497176" rel="stylesheet">
 
 
 
@@ -201,9 +201,9 @@
 <p><strong>Hook up your USB cable, then click connect</strong></p>
 <p><em>Choose the connection with ACM in the name</em></p>
 <iframe name="iframe2" src="/xterm/"
-    width="400px"
+    width="650px"
     height="600px"
-    frameborder="0" 
+    frameborder="no" 
     scrolling="no" 
     marginwidth="5"
     marginheight="5">
@@ -251,21 +251,25 @@
 </code></pre></div><p>list all the colors in colors[]</p>
 </details>
 <details class="myDetails">
-  <summary><h4 id="-lights">🗀 Lights</h4>
+  <summary><h4 id="-built-in-modules">🗀 Built-in Modules</h4>
 </summary>
-  <ul>
-<li>There are ten led lights called <em>Neopixels</em> on your robot.</li>
-<li>They are numbered 0-9 (not 1-10!) in a circle starting with the one to the left of the USB jack, and going around <em>counterclockwise</em>.</li>
-<li><em>Note: setting a pixel to <strong>black</strong> turns it off!</em></li>
-</ul>
-<p>To set one to a color, use:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">pixels[x] <span style="color:#f92672">=</span> colors[<span style="color:#e6db74">&#39;c&#39;</span>]
-</code></pre></div><p><em>where <strong>x</strong> is a number between 0 and 9, and <strong>c</strong> is the name of a color in colors[]</em></p>
-<p>To set them ALL, you can use a for() loop:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">10</span>):
-  j<span style="color:#f92672">=</span>i<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>
-  pixels[j] <span style="color:#f92672">=</span> colors[<span style="color:#e6db74">&#39;*c*&#39;</span>]
-</code></pre></div><p><em>(replace c with the name of the color)</em></p>
+  <p>Although the <strong>codekitty</strong> module is meant to make a lot of common coding tasks on your robot easier, there are many built-in modules which you can also use.</p>
+<p>To see a list of all the built-in modules you can use on your robot, use:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">help(<span style="color:#e6db74">&#34;modules&#34;</span>)
+</code></pre></div><p>If you want to know more about a specific module (what functions it will provide), use:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">help(<span style="color:#e6db74">&#34;module-name&#34;</span>)
+</code></pre></div><p>For example, if you want to know what functions are in the <strong>math</strong> module, use:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">help(<span style="color:#e6db74">&#34;math&#34;</span>)
+</code></pre></div><details class="myDetails">
+  <summary><h4 id="-time-and-sleep">🗀 Time and Sleep</h4>
+</summary>
+  <p>One (very) common task you will do when coding is to have your program <strong>wait</strong> a little bit. One of the built-in modules, <strong>time</strong>, contains a function called <strong>sleep</strong>.</p>
+<p>For example, to have your program wait for two and a half seconds, first import the <strong>sleep</strong> function:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">from</span> time <span style="color:#f92672">import</span> sleep
+</code></pre></div><p>Then call <strong>sleep</strong> with an argument of <em>3</em> (for <em>3 seconds</em>):</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">time<span style="color:#f92672">.</span>sleep(<span style="color:#ae81ff">3</span>)
+</code></pre></div>
+</details>
 </details>
 </details>
 </div>
