@@ -18,7 +18,7 @@
 
 <meta name="description" content="Code your robot over USB">
 
-<meta name="generator" content="Hugo 0.92.2" />
+<meta name="generator" content="Hugo 0.68.3" />
 
 
 <link href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,700,800' rel='stylesheet' type='text/css'>
@@ -36,7 +36,7 @@
 
 
 
-<link href="/css/custom.css?1671529407" rel="stylesheet">
+<link href="/css/custom.css?1672876201" rel="stylesheet">
 
 
 
@@ -135,6 +135,21 @@
                   
 
                   
+                  <li class="dropdown ">
+                    <a href="/blog/">Blog</a>
+                  </li>
+                  
+                  
+                  
+                  
+
+                  
+
+                  
+
+                  
+
+                  
                     
                     
                     <li class="dropdown ">
@@ -151,6 +166,36 @@
                         </ul>
                         
                     </li>
+                  
+                  
+                  
+                  
+
+                  
+
+                  
+
+                  
+
+                  
+                  <li class="dropdown ">
+                    <a href="/workshops">Workshops</a>
+                  </li>
+                  
+                  
+                  
+                  
+
+                  
+
+                  
+
+                  
+
+                  
+                  <li class="dropdown ">
+                    <a href="/contact/">Contact</a>
+                  </li>
                   
                   
                 </ul>
@@ -215,121 +260,110 @@
   <br /></p>
 <p>    <strong>(Click below for Instructions:)</strong></p>
 <details class="myDetails">
-  <summary><h4 id="-the-codekitty-module">🗀 The <code>codekitty</code> module</h4>
-</summary>
+  <summary><h4 id="-the-codekitty-module">🗀 The <code>codekitty</code> module</h4></summary>
   <p><strong>To use (import):</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">from</span> codekitty <span style="color:#f92672">import</span> <span style="color:#f92672">*</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">from</span> codekitty <span style="color:#f92672">import</span> <span style="color:#f92672">*</span>
 </code></pre></div><details class="myDetails">
-  <summary><h4 id="-moving">🗀 Moving</h4>
-</summary>
-  <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">go(x)
+  <summary><h4 id="-moving">🗀 Moving</h4></summary>
+  <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">go(x)
 </code></pre></div><p>drive forward for <em>x</em> seconds</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">back(x)
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">back(x)
 </code></pre></div><p>drive backward for <em>x</em> seconds</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">left(x)
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">left(x)
 </code></pre></div><p>turn left for <em>x</em> seconds</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">right(x)
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">right(x)
 </code></pre></div><p>turn right for <em>x</em> seconds</p>
 </details>
 <details class="myDetails">
-  <summary><h4 id="-sounds">🗀 Sounds</h4>
-</summary>
-  <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">meow()
+  <summary><h4 id="-sounds">🗀 Sounds</h4></summary>
+  <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">meow()
 </code></pre></div><p>Have your kitty robot say &ldquo;meow&rdquo;</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">purr()
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">purr()
 </code></pre></div><p>Have your kitty robot purrr (happy kitty!)</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">beep()
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">beep()
 </code></pre></div><p>make a beep sound</p>
 </details>
 <details class="myDetails">
-  <summary><h4 id="-colors">🗀 Colors</h4>
-</summary>
+  <summary><h4 id="-colors">🗀 Colors</h4></summary>
   <p>To use colors, use a value in the <em>colors[]</em> dictionary</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">colors[<span style="color:#e6db74">&#39;c&#39;</span>]
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">colors[<span style="color:#e6db74">&#39;c&#39;</span>]
 </code></pre></div><p>use a color (replace <em>c</em> with the name of the color)</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">for</span> c <span style="color:#f92672">in</span> colors[]: print c
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">for</span> c <span style="color:#f92672">in</span> colors[]: <span style="color:#66d9ef">print</span> c
 </code></pre></div><p>list all the colors in colors[]</p>
 <p>*Note: The color <strong>black</strong> sets the color to <em>off</em>.  This is especially useful for the Neopixels&hellip;</p>
 </details>
 <details class="myDetails">
-  <summary><h4 id="-lights">🗀 Lights</h4>
-</summary>
+  <summary><h4 id="-lights">🗀 Lights</h4></summary>
   <p>The CircuitPlayground board in your robot has <strong>ten multi-color LED lights</strong> called <em>Neopixels</em>.
 The Neopixels are numbered starting at 0 (<strong>zero</strong>) on the light to the left of the USB port, and going around counterclockwise. This means the pixels are numbered <strong>0-9 and not 1-10</strong>.</p>
 <p>To use them, you specify which pixel (as a number 1-10) you want to work on, and then what color to make it. For example, to set the third LED to blue:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">pixels[<span style="color:#ae81ff">2</span>] <span style="color:#f92672">=</span> colors[<span style="color:#e6db74">&#34;blue&#34;</span>]
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">pixels[<span style="color:#ae81ff">2</span>] <span style="color:#f92672">=</span> colors[<span style="color:#e6db74">&#34;blue&#34;</span>]
 </code></pre></div><p>If you want to set <em>all</em> of the pixels, you can use the special <em>fill</em> method. For example, to set all the pixels to purple:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">pixels<span style="color:#f92672">.</span>fill(colors[<span style="color:#e6db74">&#34;purple&#34;</span>])
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">pixels<span style="color:#f92672">.</span>fill(colors[<span style="color:#e6db74">&#34;purple&#34;</span>])
 </code></pre></div>
 </details>
 </details>
 <details class="myDetails">
-  <summary><h4 id="-time-and-sleep">🗀 Time and Sleep</h4>
-</summary>
+  <summary><h4 id="-time-and-sleep">🗀 Time and Sleep</h4></summary>
   <p>One (very) common task you will do when coding is to have your program <strong>wait</strong> a little bit. One of the built-in modules, <strong>time</strong>, contains a function called <strong>sleep</strong>.</p>
 <p>For example, to have your program wait for two and a half seconds, first import the <strong>sleep</strong> function:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">from</span> time <span style="color:#f92672">import</span> sleep
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">from</span> time <span style="color:#f92672">import</span> sleep
 </code></pre></div><p>Then call <strong>sleep</strong> with an argument of <em>3</em> (for <em>3 seconds</em>):</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">time<span style="color:#f92672">.</span>sleep(<span style="color:#ae81ff">3</span>)
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">time<span style="color:#f92672">.</span>sleep(<span style="color:#ae81ff">3</span>)
 </code></pre></div>
 </details>
 <details class="myDetails">
-  <summary><h4 id="-sensors">🗀 Sensors</h4>
-</summary>
+  <summary><h4 id="-sensors">🗀 Sensors</h4></summary>
   <p>A sensor is a device that measures something. Your CircuitPlayground board has 15 built-in sensors! Click the sections below to see how to use some of the sensors on your board:</p>
 <details class="myDetails">
-  <summary><h4 id="-motion">🗀 Motion</h4>
-</summary>
+  <summary><h4 id="-motion">🗀 Motion</h4></summary>
   <p>The motion sensor on your CircuitPlayground board is called an <em>accelerometer</em>. They measure movement along the <strong>X</strong> (side-to-side), <strong>Y</strong> (forward/backward), and <strong>Z</strong> (up/down) axis. This requires a little bit of setup in your code, but allows you to do some really cool things!</p>
 <p>If you want to see the values coming from the motion sensor, try this code:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">import</span> time
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">import</span> time
 <span style="color:#f92672">import</span> board
 <span style="color:#f92672">import</span> adafruit_lis3dh
 <span style="color:#f92672">import</span> busio
 <p>i2c <span style="color:#f92672">=</span> busio<span style="color:#f92672">.</span>I2C(board<span style="color:#f92672">.</span>ACCELEROMETER_SCL, board<span style="color:#f92672">.</span>ACCELEROMETER_SDA)
 lis3dh <span style="color:#f92672">=</span> adafruit_lis3dh<span style="color:#f92672">.</span>LIS3DH_I2C(i2c, address<span style="color:#f92672">=</span><span style="color:#ae81ff">0x19</span>)
 lis3dh<span style="color:#f92672">.</span>range <span style="color:#f92672">=</span> adafruit_lis3dh<span style="color:#f92672">.</span>RANGE_8_G</p>
-<p><span style="color:#66d9ef">while</span> <span style="color:#66d9ef">True</span>:
+<p><span style="color:#66d9ef">while</span> True:
 x, y, z <span style="color:#f92672">=</span> lis3dh<span style="color:#f92672">.</span>acceleration
-print((x, y, z))
+<span style="color:#66d9ef">print</span>((x, y, z))
 time<span style="color:#f92672">.</span>sleep(<span style="color:#ae81ff">0.1</span>)
 </code></pre></div></p>
 </details>
 <details class="myDetails">
-  <summary><h4 id="-light">🗀 Light</h4>
-</summary>
+  <summary><h4 id="-light">🗀 Light</h4></summary>
   <p>There is a light sensor built in to your CircuitPlayground too! While it&rsquo;s not a <em>camera</em> and can&rsquo;t actually <em>see</em>, it can detect how much light there is.
 To read the value of the light sensor into a <em>light</em> variable, use:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">import</span> board
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">import</span> board
 <span style="color:#f92672">import</span> analogio
 <p>light <span style="color:#f92672">=</span> analogio<span style="color:#f92672">.</span>AnalogIn(board<span style="color:#f92672">.</span>LIGHT)
-print(light<span style="color:#f92672">.</span>value)
+<span style="color:#66d9ef">print</span>(light<span style="color:#f92672">.</span>value)
 </code></pre></div></p>
 </details>
 <details class="myDetails">
-  <summary><h4 id="-buttons">🗀 Buttons</h4>
-</summary>
+  <summary><h4 id="-buttons">🗀 Buttons</h4></summary>
   <p>Your CircuitPlayground board has two buttons which you use in your code! The buttons are called Button_A and Button_B. For example, if you want to have Button_A turn on the red LED on your board, use:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">import</span> time
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">import</span> time
 <span style="color:#f92672">import</span> board
 <span style="color:#f92672">import</span> digitalio
 <p>led <span style="color:#f92672">=</span> digitalio<span style="color:#f92672">.</span>DigitalInOut(board<span style="color:#f92672">.</span>D13)
 led<span style="color:#f92672">.</span>switch_to_output()</p>
 <p>button <span style="color:#f92672">=</span> digitalio<span style="color:#f92672">.</span>DigitalInOut(board<span style="color:#f92672">.</span>BUTTON_A)
 button<span style="color:#f92672">.</span>switch_to_input(pull<span style="color:#f92672">=</span>digitalio<span style="color:#f92672">.</span>Pull<span style="color:#f92672">.</span>DOWN)</p>
-<p><span style="color:#66d9ef">while</span> <span style="color:#66d9ef">True</span>:
+<p><span style="color:#66d9ef">while</span> True:
 <span style="color:#66d9ef">if</span> button<span style="color:#f92672">.</span>value:
-led<span style="color:#f92672">.</span>value <span style="color:#f92672">=</span> <span style="color:#66d9ef">True</span>
+led<span style="color:#f92672">.</span>value <span style="color:#f92672">=</span> True
 <span style="color:#66d9ef">else</span>:
-led<span style="color:#f92672">.</span>value <span style="color:#f92672">=</span> <span style="color:#66d9ef">False</span></p>
+led<span style="color:#f92672">.</span>value <span style="color:#f92672">=</span> False</p>
 <pre><code>time&lt;span style=&quot;color:#f92672&quot;&gt;.&lt;/span&gt;sleep(&lt;span style=&quot;color:#ae81ff&quot;&gt;0.01&lt;/span&gt;)
 </code></pre>
 <p></code></pre></div></p>
 </details>
 </details>
 <details class="myDetails">
-  <summary><h4 id="-learn-more">🗀 Learn More</h4>
-</summary>
+  <summary><h4 id="-learn-more">🗀 Learn More</h4></summary>
   <p>There is <strong>so</strong> much more you can do with your robot, and with the CircuitPlayground board in it!</p>
 <p>For way more details and tons of fun example projects, check out</p>
 <p><a href="https://learn.adafruit.com/adafruit-circuit-playground-bluefruit/circuitpython-playground">Adafruit&rsquo;s Circuit Playground Bluefruit page!</a></p>
@@ -355,9 +389,40 @@ led<span style="color:#f92672">.</span>value <span style="color:#f92672">=</span
     <div class="container">
 
         
+        <div class="col-md-4 col-sm-6">
+            <h4>About us</h4>
+
+            <p>We are a Minnesota based 501(c)(3) non-profit whose mission is to show girls and BIPOC students that technology skills are available to anyone with an interest, and to cultivate that interest in as many learners as possible.<br />We believe that diversity is essential to our future success, and that we all do better when we all do better.</p>
+
+            <hr class="hidden-md hidden-lg hidden-sm">
+
+        </div>
+        
+        
 
         <div class="col-md-4 col-sm-6">
 
+            
+            <h4>Recent posts</h4>
+
+            <div class="blog-entries">
+                
+                <div class="item same-height-row clearfix">
+                    <div class="image same-height-always">
+                        <a href="/blog/2022/12/28/our_new_blog/">
+                          
+                            
+                          
+                        </a>
+                    </div>
+                    <div class="name same-height-always">
+                        <h5><a href="/blog/2022/12/28/our_new_blog/">first post!</a></h5>
+                    </div>
+                </div>
+                
+            </div>
+
+            <hr class="hidden-md hidden-lg">
             
 
         </div>
@@ -380,7 +445,7 @@ led<span style="color:#f92672">.</span>value <span style="color:#f92672">=</span
     <div class="container">
         <div class="col-md-12">
             
-            <p class="pull-left">Copyright (c) 2017 - 2022, Code Kitty; all rights reserved.</p>
+            <p class="pull-left">Copyright (c) 2017 - 2023, Code Kitty; all rights reserved.</p>
             
             <p class="pull-right">
               Template by <a href="https://bootstrapious.com/p/universal-business-e-commerce-template">Bootstrapious</a>.

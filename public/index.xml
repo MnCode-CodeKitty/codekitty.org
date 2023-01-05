@@ -6,54 +6,18 @@
     <description>Recent content on Code Kitty</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Aug 2021 21:29:20 +0200</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Categories Post</title>
-      <link>/blog/2021/08/01/categories-post/</link>
-      <pubDate>Sun, 01 Aug 2021 21:29:20 +0200</pubDate>
-      
-      <guid>/blog/2021/08/01/categories-post/</guid>
-      <description>I&amp;rsquo;m a post with multiple categories in the frontmatter:
-categories = [&amp;quot;programming&amp;quot;,&amp;quot;lorem&amp;quot;,&amp;quot;pseudo&amp;quot;]  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mauris nulla, vestibulum vel auctor sed, posuere eu lorem. Aliquam consequat augue ut accumsan mollis. Suspendisse malesuada sodales tincidunt. Vivamus sed erat ac augue bibendum porta sed id ipsum. Ut mollis mauris eget ligula sagittis cursus. Aliquam id pharetra tellus. Pellentesque sed tempus risus. Proin id hendrerit ante. Vestibulum vitae urna ut mauris ultricies dignissim.</description>
-    </item>
+    <lastBuildDate>Wed, 28 Dec 2022 14:22:44 -0600</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
-      <title>Linked post</title>
-      <link>/blog/2015/10/02/linked-post/</link>
-      <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
+      <title>first post!</title>
+      <link>/blog/2022/12/28/our_new_blog/</link>
+      <pubDate>Wed, 28 Dec 2022 14:22:44 -0600</pubDate>
       
-      <guid>/blog/2015/10/02/linked-post/</guid>
-      <description>I&amp;rsquo;m a linked post in the menu. You can add other posts by adding the following line to the frontmatter:
-menu = &amp;quot;main&amp;quot;  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mauris nulla, vestibulum vel auctor sed, posuere eu lorem. Aliquam consequat augue ut accumsan mollis. Suspendisse malesuada sodales tincidunt. Vivamus sed erat ac augue bibendum porta sed id ipsum. Ut mollis mauris eget ligula sagittis cursus. Aliquam id pharetra tellus.</description>
-    </item>
-    
-    <item>
-      <title>Go is for lovers</title>
-      <link>/blog/2015/09/17/go-is-for-lovers/</link>
-      <pubDate>Thu, 17 Sep 2015 13:47:08 +0200</pubDate>
-      
-      <guid>/blog/2015/09/17/go-is-for-lovers/</guid>
-      <description>Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.
-This document is a brief primer on using go templates.</description>
-    </item>
-    
-    <item>
-      <title>Hugo is for lovers</title>
-      <link>/blog/2015/08/03/hugo-is-for-lovers/</link>
-      <pubDate>Mon, 03 Aug 2015 13:39:46 +0200</pubDate>
-      
-      <guid>/blog/2015/08/03/hugo-is-for-lovers/</guid>
-      <description>This is the summary Goto &lt;a href=&#34;https://github.com/spf13/hugo/releases&#34;&gt;hugo releases&lt;/a&gt; and download the appropriate version for your os and architecture. Save it somewhere specific as we will be using it in the next step. More complete instructions are available at &lt;a href=&#34;/overview/installing/&#34;&gt;installing hugo&lt;/a&gt;</description>
-    </item>
-    
-    <item>
-      <title>Creating a new theme</title>
-      <link>/blog/2015/06/24/creating-a-new-theme/</link>
-      <pubDate>Wed, 24 Jun 2015 13:50:46 +0200</pubDate>
-      
-      <guid>/blog/2015/06/24/creating-a-new-theme/</guid>
-      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
-We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
+      <guid>/blog/2022/12/28/our_new_blog/</guid>
+      <description>This is our first blog post! cool right?</description>
     </item>
     
     <item>
@@ -84,12 +48,12 @@ We&amp;rsquo;ll start with creating a new site with a very basic template.</desc
       <description>Hook up your USB cable, then click connect
 Choose the connection with ACM in the name
     (Click below for Instructions:)
-🗀 The codekitty module  To use (import):
-from codekitty import * 🗀 Moving  go(x) drive forward for x seconds
+🗀 The codekitty module To use (import):
+from codekitty import * 🗀 Moving go(x) drive forward for x seconds
 back(x) drive backward for x seconds
 left(x) turn left for x seconds
 right(x) turn right for x seconds
- 🗀 Sounds  meow() Have your kitty robot say &amp;ldquo;meow&amp;rdquo;</description>
+ 🗀 Sounds meow() Have your kitty robot say &amp;ldquo;meow&amp;rdquo;</description>
     </item>
     
     <item>
@@ -102,23 +66,14 @@ right(x) turn right for x seconds
     </item>
     
     <item>
-      <title>Migrate from Jekyll</title>
-      <link>/blog/1/01/01/migrate-from-jekyll/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/blog/1/01/01/migrate-from-jekyll/</guid>
-      <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
-▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png  should become
-▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
-    </item>
-    
-    <item>
       <title>Workshops</title>
       <link>/workshops/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/workshops/</guid>
-      <description>Our workshops have helped over 300 students succeed at coding, robotics, and engineering. All of our donations go back into providing our robot kits and instructional materials as cheaply as possible, and we rely on grants to cover our operational costs. Our robots are printed from biodegradable PLA plastic (made from corn starch!), on 3D printers powered with solar power. Green is the new black.  Pricing ###Suggested Donations### We&amp;rsquo;ve worked really hard to keep our costs down, and are proud to offer our 3 hour in person workshop, which includes the robot kit, for a low suggested donation per student.</description>
+      <description>The Code Kitty Workshop Model Our workshops have helped over 300 students succeed at coding, robotics, and engineering.
+All of our donations go back into providing our robot kits and instructional materials as cheaply as possible, and we rely on grants to cover our operational costs.
+Our robots are printed from biodegradable PLA plastic (made from corn starch!), on 3D printers powered with solar power. Green is the new black.</description>
     </item>
     
   </channel>
